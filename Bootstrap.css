@@ -1,0 +1,40 @@
+body {
+    background-color: #fff7f0;
+    font-family: Arial, sans-serif;
+    color: #554b5b;
+    margin: 30px;
+}
+
+h1 {
+    background-color: #eadcf8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #b58bbd;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #8d9fc4;
+    margin-top: 20px;
+}
+
+.tarjeta {
+    background-color: #fcebf0;
+    max-width: 350px;
+    margin: 15px 0;
+    border-radius: 12px;
+}
+
+.ejemplo5 {
+    background-color: #e3f0e5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+a {
+    color: #a16e9d;
+}

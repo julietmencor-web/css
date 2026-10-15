@@ -1,0 +1,104 @@
+body {
+    background-color: #fff5f7;
+    font-family: Arial, sans-serif;
+    color: #554b5b;
+    margin: 30px;
+}
+
+h1 {
+    background-color: #eadcf8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #b58bbd;
+}
+
+h3 {
+    color: #8d9fc4;
+}
+
+div {
+    background-color: #e3f0e5;
+    width: 180px;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ejemplo1 {
+    animation: color 3s infinite alternate;
+}
+
+.ejemplo2 {
+    animation: mover 3s infinite alternate;
+}
+
+.ejemplo3 {
+    animation: crecer 2s infinite alternate;
+}
+
+.ejemplo4 {
+    animation: aparecer 3s infinite alternate;
+}
+
+.ejemplo5 {
+    animation: girar 4s infinite linear;
+}
+
+@keyframes color {
+    from {
+        background-color: #f8e1e7;
+    }
+
+    to {
+        background-color: #dcecf7;
+    }
+}
+
+@keyframes mover {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100px);
+    }
+}
+
+@keyframes crecer {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0.3;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+a {
+    color: #a16e9d;
+}
